@@ -25,7 +25,7 @@ class Migration(migrations.Migration):
 
 
     dependencies = [
-        ('sentry', '0108_update_fileblob_action'),
+        ('sentry', '0118_backfill_snuba_query_event_types'),
     ]
 
     operations = [
