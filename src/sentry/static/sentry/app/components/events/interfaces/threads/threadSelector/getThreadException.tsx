@@ -1,7 +1,7 @@
-import {Thread} from 'app/types/events';
+import {ThreadType} from 'app/types/events';
 import {Event, EntryTypeData} from 'app/types';
 
-function getThreadException(thread: Thread, event: Event): EntryTypeData | undefined {
+function getThreadException(thread: ThreadType, event: Event): EntryTypeData | undefined {
   if (!event || !event.entries) {
     return undefined;
   }

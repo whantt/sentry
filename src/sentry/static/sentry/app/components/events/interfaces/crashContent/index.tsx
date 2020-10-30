@@ -13,7 +13,7 @@ type Props = Pick<
   ExceptionProps,
   'stackType' | 'stackView' | 'projectId' | 'event' | 'newestFirst'
 > & {
-  exception?: ExceptionProps['exception'];
+  exception?: EntryTypeData;
   stacktrace?: StacktraceProps['stacktrace'];
 };
 
